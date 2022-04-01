@@ -1,7 +1,7 @@
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     background-color: black;
+    color:gray;
 
 }
 .flex-column {
