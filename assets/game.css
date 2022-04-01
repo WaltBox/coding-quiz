@@ -21,7 +21,7 @@
     min-width: 80rem;
     align-items: center;
 }
-.choice-container:hover {
+.choice-text:hover {
     cursor: pointer;
     box-shadow: 0 0.4 1.4rem 0 purple;
     transform: scale(1.02);
@@ -42,6 +42,10 @@
 }
 .correct {
     background: linear-gradient(32deg, green)
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
 }
 @media screen and (max-width:768px) {
     .choice-container {
